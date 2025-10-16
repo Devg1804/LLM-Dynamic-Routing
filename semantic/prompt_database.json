@@ -1,0 +1,158 @@
+[
+  {
+    "prompt_id": "code_001",
+    "prompt_text": "def quicksort(arr):",
+    "task_type": "Code Generation",
+    "ideal_model": "gemini-2.5-flash"
+  },
+  {
+    "prompt_id": "code_002",
+    "prompt_text": "implement a scalable, multi-threaded web scraper in Go",
+    "task_type": "Code Generation",
+    "ideal_model": "gemini-2.5-pro"
+  },
+  {
+    "prompt_id": "code_003",
+    "prompt_text": "write a sql query to find all users who signed up last month and made a purchase",
+    "task_type": "Code Generation",
+    "ideal_model": "gemini-2.5-flash"
+  },
+  {
+    "prompt_id": "code_004",
+    "prompt_text": "write a bash script to find all files larger than 100mb in the current directory.",
+    "task_type": "Code Generation",
+    "ideal_model": "gemini-2.5-flash-lite"
+  },
+  {
+    "prompt_id": "reason_001",
+    "prompt_text": "explain the key differences between quantum computing and classical computing in simple terms",
+    "task_type": "Reasoning",
+    "ideal_model": "gemini-2.5-pro"
+  },
+  {
+    "prompt_id": "reason_002",
+    "prompt_text": "analyze the pros and cons of adopting a microservices architecture for a growing e-commerce platform",
+    "task_type": "Reasoning",
+    "ideal_model": "gemini-2.5-pro"
+  },
+  {
+    "prompt_id": "summary_001",
+    "prompt_text": "summarize the following research paper on protein folding into three key bullet points",
+    "task_type": "Summarization",
+    "ideal_model": "gemini-2.5-flash"
+  },
+  {
+    "prompt_id": "summary_002",
+    "prompt_text": "take this 50-page legal document and provide a one-page executive summary highlighting key clauses and potential risks.",
+    "task_type": "Summarization",
+    "ideal_model": "gemini-2.5-pro"
+  },
+  {
+    "prompt_id": "chat_001",
+    "prompt_text": "what's a fun fact about the ocean?",
+    "task_type": "Chatbot",
+    "ideal_model": "gemini-2.5-flash-lite"
+  },
+  {
+    "prompt_id": "chat_002",
+    "prompt_text": "what was the first thing i asked you about today?",
+    "task_type": "Chatbot",
+    "ideal_model": "gemini-2.5-flash"
+  },
+  {
+    "prompt_id": "extract_001",
+    "prompt_text": "from this email, extract the customer's name, order number, and the items they want to return",
+    "task_type": "Extraction",
+    "ideal_model": "gemini-2.5-flash-lite"
+  },
+  {
+    "prompt_id": "extract_002",
+    "prompt_text": "parse this unstructured log file and extract all error messages, timestamps, and user IDs associated with them",
+    "task_type": "Extraction",
+    "ideal_model": "gemini-2.5-flash"
+  },
+  {
+    "prompt_id": "classify_001",
+    "prompt_text": "classify this movie review as positive, negative, or neutral: 'The film was a masterpiece of storytelling.'",
+    "task_type": "Classification",
+    "ideal_model": "gemini-2.5-flash-lite"
+  },
+  {
+    "prompt_id": "classify_002",
+    "prompt_text": "classify the sentiment of this support ticket and route it to either the billing, technical, or sales department: 'I can't seem to update my payment information and my service is about to expire.'",
+    "task_type": "Classification",
+    "ideal_model": "gemini-2.5-flash"
+  },
+  {
+    "prompt_id": "rewrite_001",
+    "prompt_text": "rewrite this sentence to sound more professional: 'we gotta finish the project soon'",
+    "task_type": "Rewrite",
+    "ideal_model": "gemini-2.5-flash"
+  },
+  {
+    "prompt_id": "rewrite_002",
+    "prompt_text": "rewrite this technical blog post about databases into a fun, engaging story for a non-technical audience",
+    "task_type": "Rewrite",
+    "ideal_model": "gemini-2.5-pro"
+  },
+  {
+    "prompt_id": "brainstorm_001",
+    "prompt_text": "brainstorm a list of potential marketing slogans for a new eco-friendly water bottle",
+    "task_type": "Brainstorming",
+    "ideal_model": "gemini-2.5-pro"
+  },
+  {
+    "prompt_id": "brainstorm_002",
+    "prompt_text": "give me some ideas for a healthy lunch",
+    "task_type": "Brainstorming",
+    "ideal_model": "gemini-2.5-flash-lite"
+  },
+  {
+    "prompt_id": "Open QA_001",
+    "prompt_text": "hi what is your name?",
+    "task_type": "Open QA",
+    "ideal_model": "gemini-2.5-flash-lite"
+  },
+  {
+    "prompt_id": "Open QA_002",
+    "prompt_text": "what is the capital of france?",
+    "task_type": "Open QA",
+    "ideal_model": "gemini-2.5-flash-lite"
+  },
+    {
+    "prompt_id": "Open QA_003",
+    "prompt_text": "can you explain the theory of relativity in simple terms?",
+    "task_type": "Open QA",
+    "ideal_model": "gemini-2.5-pro"
+  },
+  {
+    "prompt_id": "Open QA_004",
+    "prompt_text": "calculation 5 + 6 =?",
+    "task_type": "Open QA",
+    "ideal_model": "gemini-2.5-flash-lite"
+  },
+  {
+    "prompt_id": "Open QA_005",
+    "prompt_text": "what is the tallest mountain in the world?",
+    "task_type": "Open QA",
+    "ideal_model": "gemini-2.5-flash-lite"
+  },
+  {
+    "prompt_id": "Open QA_006",
+    "prompt_text": "who wrote 'To Kill a Mockingbird'?",
+    "task_type": "Open QA",
+    "ideal_model": "gemini-2.5-flash-lite"
+  },
+  {
+    "prompt_id": "Open QA_007",
+    "prompt_text": "what are the main causes of climate change?",
+    "task_type": "Open QA",
+    "ideal_model": "gemini-2.5-pro"
+  },
+  {
+    "prompt_id": "Open QA_008",
+    "prompt_text": "how does photosynthesis work?",
+    "task_type": "Open QA",
+    "ideal_model": "gemini-2.5-flash"
+  }
+]

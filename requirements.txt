@@ -1,0 +1,14 @@
+torch
+transformers
+huggingface_hub
+numpy
+sentence-transformers
+chromadb
+langgraph
+streamlit
+pydantic
+fastapi
+uvicorn[standard]
+google-generativeai
+panadas
+
