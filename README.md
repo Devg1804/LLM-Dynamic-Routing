@@ -132,20 +132,6 @@ streamlit run frontend\app.py
 
 Your web browser will open with the application running at `http://localhost:8501`.
 
-## 📁 Project Structure
-
-```
-.
-├── app.py                    # Main Streamlit UI and application entry point
-├── classifier_service.py     # Encapsulates the NVIDIA classifier logic
-├── classifier_model.py       # PyTorch model definition for the classifier
-├── semantic_router.py        # Manages semantic search with ChromaDB
-├── scoring_engine.py         # Contains the hybrid scoring and normalization logic
-├── model_registry.py         # Holds the metadata and specs for the Gemini models
-├── prompt_database.json      # Curated examples for semantic search
-├── requirements.txt          # Python dependencies
-└── README.md                 # This file
-```
 
 ## 📊 How It Works
 
@@ -155,9 +141,9 @@ graph TD
     B --> C[Stage 2: Semantic Search]
     C --> D[Stage 3: Hybrid Scoring]
     D --> E{Select Best Model}
-    E -->|High Score| F[Gemini Pro]
-    E -->|Medium Score| G[Gemini Flash]
-    E -->|Low Score| H[Gemini Flash-Lite]
+    E --> F[Gemini Pro]
+    E --> G[Gemini Flash]
+    E --> H[Gemini Flash-Lite]
     F --> I[API Call & Response]
     G --> I
     H --> I
@@ -196,3 +182,4 @@ Your Name - [Dev Gupta](https://www.linkedin.com/in/dev-gupta4/)
 Project Link: [https://github.com/Devg1804/LLM-Dynamic-Routing.git](https://github.com/Devg1804/LLM-Dynamic-Routing.git)
 
 ---
+
