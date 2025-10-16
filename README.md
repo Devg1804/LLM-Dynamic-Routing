@@ -24,6 +24,7 @@ This project implements a sequential, funnel-like architecture to analyze a user
 
 We use the powerful **NVIDIA Prompt Task and Complexity Classifier**.
 
+- [https://huggingface.co/nvidia/prompt-task-and-complexity-classifier](https://huggingface.co/nvidia/prompt-task-and-complexity-classifier)
 - This model analyzes the user's prompt and determines its fundamental intent (e.g., Code Generation, Summarization, Reasoning) and complexity dimensions.
 
 ### Stage 2: Filtered Semantic Search (The "Who")
@@ -182,4 +183,5 @@ Your Name - [Dev Gupta](https://www.linkedin.com/in/dev-gupta4/)
 Project Link: [https://github.com/Devg1804/LLM-Dynamic-Routing.git](https://github.com/Devg1804/LLM-Dynamic-Routing.git)
 
 ---
+
 
